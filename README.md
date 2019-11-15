@@ -1,3 +1,3 @@
-# projeto-final-codes
+# Projeto Final CODES
 
-Grupo : Gabriel Formario, João Araujo, Pedro Ball, Rafael Zanfolin
+* Grupo : Gabriel Formario, João Araujo, Pedro Ball, Rafael Zanfolin
