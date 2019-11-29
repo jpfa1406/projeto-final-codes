@@ -1,4 +1,63 @@
-.menu-image{
+.header{
+	#background-color: green;
 	display: flex;
-	justify-content: flex-start;
+	align-items: center;
+	justify-content: space-around;
+}
+.menu-image{
+	height: 75px;
+}
+
+
+.Pedido{
+	display: flex;
+	margin-right: 18rem;
+}
+
+.texto1{
+	font-size: 3rem;
+	color: black;
+}
+
+.boxes {
+	margin-top: 2rem;
+	width: 100%;
+
+}
+
+.texto-item {
+	font-size: 3rem;
+}
+.texto {
+	font-size: 3rem;
+
+}
+
+.seta {
+	height: 70%;
+}
+
+.item {
+	margin-top: 4.5rem;
+	margin-bottom: 4.5rem;
+
+}
+
+.box {			
+	background-color: #ffffff;
+	display: flex;
+	align-items:  center;
+	justify-content:  space-around;
+	margin: 0 auto; 
+	width: 80%;  
+	padding-top:3rem;
+	padding-bottom:3rem; 
+	border-radius: 1rem;
+	border-style: solid;
+	border-width: 0.1rem;
+}
+hr {
+	width: 103%;
+	border: 0;
+	border-top: 0.2rem solid black;
 }
