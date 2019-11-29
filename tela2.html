@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<script src='tela2.js'></script>
 
 <head>
-	<title>Tela inicial</title>
-	<link href="assets/tela1.css" rel="stylesheet">
+	<title>Tela de busca</title>
+	<link href="assets/tela2.css" rel="stylesheet">
 	<meta charset="utf-8">
 	<style>
 		body {
@@ -52,17 +53,27 @@
 	</style>
 </head>
 
-<body class='body'>
-	<header class ='header' >
-		<div id="mySidenav" class="sidenav">
+<body class="body">
+	<header class="header">
+		<div class="caixa">
+			<div class="busca">
+				<input type="text" class="TermoDeBusca" placeholder="O que você procura?">
+				<button type="submit" class="searchButton">
+					<img class="lupa" src="assets/img/magnifying-search-lenses-tool.png">
+				</button>
+			</div>
+		</div>
+
+
+	<div id="mySidenav" class="sidenav">
 		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
 		<div>
 		<img class='usuario' src="assets/img/usuario.png">
 		<a href="tela1.html">Inicio</a>
 		<a href="tela3.html">Pedidos</a>
-		<a href="#">Contatos</a>
-		<a href="#">Clientes</a>
-		<a href="#">batata</a>
+		<a href="tela1.html">Contatos</a>
+		<a href="tela1.html">Clientes</a>
+		<a href="tela1.html">batata</a>
 		</div>
 		
 	</div>
@@ -78,23 +89,20 @@
 			document.getElementById("mySidenav").style.width = "0";
 		}
 	</script>
-		<h1 class = 'batata'>
-			Olá, Renata
-		</h1>
-
 	</header>
-	<main>
-		<figure class="main-figure">
 
-			<img class="menu-image" src="assets/img/flor-de-cerejeira.jpg" alt="Abrir Menu">
-		</figure>
-		<div class="nome">
+	<div class="sugestoes">
+		<img src="assets/img/rosa.jpg" class="rosa">
+		<img src="assets/img/tulipa.jpg" class="tulipa">
+		<img src="assets/img/girasol.jpg" class="girasol">
+	</div> 
+	<hr class="divisao">
+	<h2 class="tempo" >Tempo estimado</h2>
+	<h2 class="tempo2" >12 min</h2>
+	<div class="preco">
+		Preço:             12,50 R$
+	</div>
+	<hr class="divisao2">
+	<h2 class="pedir2" >PEDIR</h2>
 
-			<ul style="list-style-type:none;">
-				<li><a href="tela2.html" class='fornecer'>Fornecer</a></li>
-				<li><a href="tela2.html" class='pedir'>Pedir</a></li>
-			</ul>
-
-		</div>
-	</main>
 </body>
