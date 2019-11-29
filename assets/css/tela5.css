@@ -1,0 +1,23 @@
+.clearfix{
+	display: flex;
+}
+
+.cancelbtn{
+	padding: 2rem;
+}
+
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+    margin: 2rem;
+}
+
+.e{
+	text-decoration: none;
+	color: white;
+}
+
+.body{
+	font-family: Fire Sans;
+	background-color: #c6c8ee;
+}

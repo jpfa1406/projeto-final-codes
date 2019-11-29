@@ -1,0 +1,89 @@
+.menu-image{
+  display: flex;
+  text-align: 
+}
+
+.rosa {
+  border-radius: 100%;
+  align-content: start;
+  height: 180px;
+}
+
+.tulipa{
+  height: 173px;
+  border-radius:  100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.girasol{
+  height: 173px;
+  border-radius:  100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sugestoes{
+
+  margin-top: 2rem;
+  justify-content: space-around;
+  padding: 2rem;
+  font-size: 3rem;
+  margin-left: 0rem;
+  display: flex;
+  font-family: Fire sans-serif;
+}
+
+.menu-image{
+  height: 65px;
+  margin-top: 5.5%;
+  margin-left: 2.5%;
+}
+
+.pedido{
+  margin-right: 1rem;
+  font-family: EB Garamond;
+}
+
+.pedido1 {
+  margin-left: 3rem;
+}
+
+.b {
+  display: flex;
+}
+
+.floricultura {
+  font-weight: bold;
+}
+
+.oque {
+  margin-top: 1rem;
+}
+
+.Pedido{
+  font-weight: bold;
+  font-size: 3rem;
+  margin-left: 2rem;
+  font-family: EB Garamond;
+}
+
+.detalhes2{
+  text-decoration: none;
+  color: black;
+}
+
+.usuario{
+  height: 200px;
+  justify-content: center;
+}
+
+.contatos{
+  text-decoration: none;
+  color: black;
+  border: 5px solid;
+  border-radius: 8px;
+  padding: 3px;
+}
+
+.divisao{
+  border-color: #c21f51
+}

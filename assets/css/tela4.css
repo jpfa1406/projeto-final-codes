@@ -1,0 +1,19 @@
+.link-cadastro{
+	width: 3rem;
+	padding-left: 7rem;
+}
+
+.z{
+	text-decoration: none;
+	color: white;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #c6c8ee;
+}
+
+.form {
+    border: 3px solid #bd6b73;
+}
+

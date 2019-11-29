@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link href="assets/css/tela4.css" rel="stylesheet">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
+body {font-family: Fire sans-serif;;
+    background-color: #c6c8ee;}
+form {border: 3px solid #f1f1f1;border: 3px solid #bd6b73;}
 
 input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 2px solid black;
   box-sizing: border-box;
+  background-color:#c6c8ee
 }
 
 button {
@@ -23,10 +26,12 @@ button {
   border: none;
   cursor: pointer;
   width: 100%;
+
 }
 
 button:hover {
   opacity: 0.8;
+
 }
 
 .cancelbtn {
@@ -38,20 +43,26 @@ button:hover {
 .imgcontainer {
   text-align: center;
   margin: 24px 0 12px 0;
+
+
 }
 
 img.avatar {
   width: 40%;
   border-radius: 50%;
+  background-color: #bd6b73;
 }
 
 .container {
   padding: 16px;
+  background-color: #bbb6df;
+
 }
 
 span.psw {
   float: right;
   padding-top: 16px;
+
 }
 
 /* Change styles for span and cancel button on extra small screens */
@@ -59,38 +70,41 @@ span.psw {
   span.psw {
      display: block;
      float: none;
+     background-color: #bbb6df;
   }
   .cancelbtn {
      width: 100%;
+     background-color: #bbb6df;
   }
 }
 </style>
 </head>
 <body>
 
-<h2>Entrar</h2>
+<h2 style="font-family: EB Garamond;">Entrar</h2>
 
-<form action="/action_page.php" method="post">
+<form action="/action_page.php" method="post" >
   <div class="imgcontainer">
     <img src="assets/img/Usuario.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
     <label for="uname"><b>Usuario</b></label>
-    <input type="text" placeholder="Nome de Usuario" name="uname" required>
+    <input type="text" placeholder="Nome de Usuario" name="uname" required style="background-color:#c6c8ee">
 
-    <label for="psw"><b>Senha</b></label>
+    <label for="psw" ><b>Senha</b></label>
     <input type="password" placeholder="********" name="psw" required>
         
-    <button type="submit">Entrar</button>
+    <button type="submit"><a class='z'href="tela1.html" >Entrar</a></button>
     <label>
       <input type="checkbox" checked="checked" name="remember"> Lembrar senha
     </label>
+    <a href="tela5.html" class="link-cadastro">cadastrar</a>
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">cancelar</button>
-    <span class="psw">cancelar <a href="#">senha?</a></span>
+  <div class="container" style="background-color:#c6c8ee">
+    <button type="button" class="cancelbtn"><a class='z'href="tela1.html">cancelar</a></button>
+    <span class="psw">mudar <a href="#">senha?</a></span>
   </div>
 </form>
 

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Tela inicial</title>
+	<link href="assets/css/tela6.css" rel="stylesheet">
+	<meta charset="utf-8">
+	<style>
+		body {
+			font-family: "Lato", sans-serif;
+			background-color:  #c6c8ee;
+		}
+
+		.sidenav {
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: #d483a9;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+			text-align: center;
+		}
+
+		.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 4rem;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    font-family: Fire sans-serif;
+}
+
+		.sidenav a:hover {
+			color: #f1f1f1;
+		}
+
+		.sidenav .closebtn {
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 50px;
+		}
+
+		@media screen and (max-height: 450px) {
+			.sidenav {padding-top: 15px;}
+			.sidenav a {font-size: 18px;}
+		}
+	</style>
+</head>
+
+<body class='body'>
+
+	<header class ='header' >
+		<div id="mySidenav" class="sidenav">
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+			<div>
+		<img class='usuario' src="assets/img/usuario.png">
+		<hr>
+		<a href="tela1.html">Inicio</a>
+		<hr>
+		<a href="tela4.html">Perfil</a>
+		<hr>
+		<a href="tela3.html">Pedidos</a>
+		<hr>
+		<a href="tela7.html">Contatos</a>
+		<hr>
+		<a href="#">Inventário</a>
+		<hr>
+		<a href="#">Suporte</a>
+		</div>
+
+		</div>
+		<span style="height: 5%" onclick="openNav()"><img class="menu-image" src="assets
+			/img/menu-symbol-of-three-parallel-lines.png"> </span>
+
+			<script>
+				function openNav() {
+					document.getElementById("mySidenav").style.width = "500px";
+				}
+
+				function closeNav() {
+					document.getElementById("mySidenav").style.width = "0";
+				}
+			</script>
+			<h1 class = 'Pedido'>
+				Pedido 
+			</h1>
+		</header>
+		<body>
+			<div class="sugestoes">
+				<div class="b">
+					<img src="assets/img/azul.jpg" class="rosa">
+					<ul style="list-style-type:none;" class="pedido1">
+						
+						<li class="oque">
+							4 Rosas azuis
+						</li>
+						<li>
+							Preço: 21,00 R$
+						</li>
+						<li>
+							Tempo de entrga: 15 min
+						</li>
+
+						<hr class="divisao">
+					</ul>
+				</div>
+				<div class="b">
+					<img src="assets/img/usuario.png" class="rosa">
+					<ul style="list-style-type:none;" class="pedido1">
+						
+						<li class="oque">
+							Maria flores
+						</li>
+						<li>
+							Dona(o): Maria
+						</li>
+						<li >
+							<a href="tela7.html" class="contatos"> Adicionar aos contatos</a>
+						</li>
+
+						<hr class="divisao">
+					</ul>
+				</div>
+			</div> 
+			<hr class="divisao">
+		</body>

@@ -1,59 +1,81 @@
 .batata {
-	display:flex;
-	justify-content: center; 
-	font-size: 6rem;
-	margin-right: 2rem;
-	background-color: blue;
+    display: flex;
+    justify-content: center;
+    font-size: 6rem;
+    margin-right: 6rem;
+    font-family: EB Garamond;
 }
-
 .main-figure {
 	display:flex; 
 	justify-content: center;
 	border-radius: 0 40px 40px 0;
-	padding-top: 4rem;
 }
 
 .nome{
 	margin-top: 12rem;
-	margin-right: 2rem;
 	justify-content: center;
 	font-size: 8rem;
 	text-align: center;
+	font-family: Fire Sans;
 }
 
 .pedir{
-	background-color: #eee; /* Grey background color */
+	background-color: #bd6b73; /* Grey background color */
   	color: black; /* Black text color */
   	display: block; /* Make the links appear below each other */
   	padding: 12px; /* Add some padding */
   	text-decoration: none; /* Remove underline from links */
   	margin-top: 2rem;
+  	border: solid;
+  	font-size: 5rem;
 }
 
 
 .fornecer{
-	background-color: #eee; /* Grey background color */
+	background-color: #bd6b73; /* Grey background color */
   	color: black; /* Black text color */
   	display: block; /* Make the links appear below each other */
   	padding: 12px; /* Add some padding */
   	text-decoration: none; /* Remove underline from links */
-
+  	border: solid;
+  	font-size: 5rem;
+  	margin: auto;
 }
 
 .header{
-	background-color: green;
 	display: flex;
-	align-items: center;
+	flex-direction: row;
 	justify-content: space-around;
+	background-color: #bbb6df
+
 }
 
 .img-menu{
-	width: 17rem;
-	height: 18rem;
+	width: 8rem;
+	height: 8rem;
 }
 
-.menu-image{
-  height: 75px;
-  margin-top: 5.5%;
-  margin-left: 2.5%;
+.usuario{
+  height: 200px;
+}
+
+.menu-image {
+    height: 65px;
+    margin-top: 5rem;
+    margin-left: -3rem;
+}
+
+.body{
+    font-family: "Fire Sans", sans-serif;
+    background-color: #c6c8ee;
+
+}
+
+.menu-image2 {
+    border-radius: 100%
+}
+
+.e{
+	padding: 2rem;
+	margin: auto;
 }

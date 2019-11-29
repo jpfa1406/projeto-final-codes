@@ -13,15 +13,16 @@ body{
 
 .TermoDeBusca {
   width: 100%;
-  border: 3px solid #00B4CC;
+  border: 3px solid #bd6b73;
   border-right: none;
   padding: 10px;
   height: 50px;
   border-radius: 40px 0 0 40px;
   outline: none;
-  color: #9DBFAF;
+  color: #bbb6df;
   text-align: center;
   font-size: 2rem;
+  background-color: #bbb6df;
 }
 
 .TermoDeBusca:focus{
@@ -31,8 +32,8 @@ body{
 .searchButton {
   width: 75px;
   height: 75px;
-  border: 1px solid #00B4CC;
-  background: #00B4CC;
+  border: 1px solid #bd6b73;
+  background:#bd6b73;
   text-align: center;
   color: #fff;
   border-radius: 0 40px 40px 0;
@@ -81,16 +82,19 @@ padding: 2rem;
 .rosa{
   border-radius:  100%;
   align-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .tulipa{
   height: 173px;
   border-radius:  100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .girasol{
   height: 173px;
   border-radius:  100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .tempo{
@@ -101,7 +105,7 @@ padding: 2rem;
   border-style: solid;
   width: 75%;
   margin: auto;
-  background-color: #cecece;
+  background-color: #bbb6df;
 }
 
 .divisao{
@@ -123,15 +127,15 @@ padding: 2rem;
   border-style: solid;
   width: 75%;
   margin: auto;
-  background-color: #cecece;
+  background-color: #bbb6df;
 }
 
 .divisao2{
   margin-top: 2rem;
-  border: 12px solid blue;
+  border: 8px solid #c21f51;
   margin-bottom: 3rem;
   width: 80%;
-  color: black;
+  background-color: #c21f51;
 }
 
 .pedir2{
@@ -142,7 +146,7 @@ padding: 2rem;
   border-style: solid;
   width: 75%;
   margin: auto;
-  background-color: #cecece;
+  background-color: #bbb6df;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }

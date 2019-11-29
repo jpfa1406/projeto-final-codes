@@ -3,113 +3,213 @@
 
 <head>
 	<title>Tela inicial</title>
-	<link href="assets/tela3.css" rel="stylesheet">
-	<link href="assets/base.css" rel="stylesheet">
+	<link href="assets/css/tela3.css" rel="stylesheet">
 	<meta charset="utf-8">
+	<style>
+		body {
+			font-family: "Lato", sans-serif;
+			background-color: #c6c8ee;
+		}
+
+		.sidenav {
+			height: 100%;
+			width: 0;
+			position: fixed;
+			z-index: 1;
+			top: 0;
+			left: 0;
+			background-color: #d483a9;
+			overflow-x: hidden;
+			transition: 0.5s;
+			padding-top: 60px;
+			text-align: center;
+		}
+
+		.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 4rem;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+    font-family: Fire sans-serif;
+}
+
+		.sidenav a:hover {
+			color: #f1f1f1;
+		}
+
+		.sidenav .closebtn {
+			position: absolute;
+			top: 0;
+			right: 25px;
+			font-size: 36px;
+			margin-left: 50px;
+		}
+
+		@media screen and (max-height: 450px) {
+			.sidenav {padding-top: 15px;}
+			.sidenav a {font-size: 18px;}
+		}
+	</style>
 </head>
+
+<body class='body'>
+
 	<header class ='header' >
 		<div id="mySidenav" class="sidenav">
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
-		<div>
+			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+			<div>
 		<img class='usuario' src="assets/img/usuario.png">
-		<a href="tela1.html">Inicio</a>
-		<a href="tela3.html">Pedidos</a>
-		<a href="#">Contatos</a>
-		<a href="#">Clientes</a>
-		<a href="#">batata</a>
-		</div>
-		
-	</div>
-	<span style="height: 5%" onclick="openNav()"><img class="menu-image" src="assets
-		/img/menu-symbol-of-three-parallel-lines.png"> </span>
-
-	<script>
-		function openNav() {
-			document.getElementById("mySidenav").style.width = "500px";
-		}
-
-		function closeNav() {
-			document.getElementById("mySidenav").style.width = "0";
-		}
-	</script>
-	<h1 class = 'Pedido'>
-			PEDIDOS
-		</h1>
-	</header>
-	<body>
 		<hr>
-		<ul class="boxes">
-          <li class= "item">
-            <ul class= "box">
-               <ul>
-               	<img class= "seta" src="assets/img/girasol.jpg" alt="seta"></ul>
+		<a href="tela1.html">Inicio</a>
+		<hr>
+		<a href="tela4.html">Perfil</a>
+		<hr>
+		<a href="tela3.html">Pedidos</a>
+		<hr>
+		<a href="tela7.html">Contatos</a>
+		<hr>
+		<a href="#">Inventário</a>
+		<hr>
+		<a href="#">Suporte</a>
+		</div>
 
-               <ul class="texto-item">
-               	<ul class="texto">Floricultor A</p></ul>
-               	<ul class="texto">Pedido A</p></ul>
-               	<ul class="texto">Vendedor A</p></ul>
-               </ul>
-               <ul><img class= "seta" src="assets/img/menu.png" alt="seta"></ul>
-            </ul>
-          </li>
-        
-          <li class= "item">
-            <ul class= "box">
-               <ul>
-               	<img class= "seta" src="assets/img/girasol.jpg" alt="seta"></ul>
 
-               <ul class="texto-item">
-               	<ul class="texto">Floricultor A</p></ul>
-               	<ul class="texto">Pedido A</p></ul>
-               	<ul class="texto">Vendedor A</p></ul>
-               </ul>
-               <ul><img class= "seta" src="assets/img/menu.png" alt="seta"></ul>
-            </ul>
-          </li>
-        
-          <li class= "item">
-            <ul class= "box">
-               <ul>
-               	<img class= "seta" src="assets/img/girasol.jpg" alt="seta"></ul>
+		</div>
+		<span style="height: 5%" onclick="openNav()"><img class="menu-image" src="assets
+			/img/menu-symbol-of-three-parallel-lines.png"> </span>
 
-               <ul class="texto-item">
-               	<ul class="texto">Floricultor A</p></ul>
-               	<ul class="texto">Pedido A</p></ul>
-               	<ul class="texto">Vendedor A</p></ul>
-               </ul>
-               <ul><img class= "seta" src="assets/img/menu.png" alt="seta"></ul>
-            </ul>
-          </li>
+			<script>
+				function openNav() {
+					document.getElementById("mySidenav").style.width = "500px";
+				}
 
-          <li class= "item">
-            <ul class= "box">
-               <ul>
-               	<img class= "seta" src="assets/img/rosa.jpg" alt="seta"></ul>
+				function closeNav() {
+					document.getElementById("mySidenav").style.width = "0";
+				}
+			</script>
+			<h1 class = 'Pedido'>
+				Pedidos
+			</h1>
+		</header>
+		<body>
+			<div class="sugestoes">
+				<div class="b">
+					<img src="assets/img/rosa.jpg" class="rosa">
+					<ul style="list-style-type:none;" class="pedido1">
+						<li class="floricultura">
+							Flores do jorge
+						</li>
+						<li class="oque">
+							12 Rosas
+						</li>
+						<li class="detalhes">
+							<a href="tela6.html" class="detalhes2">...</a>
+						</li>
+						<hr class="divisao">
+					</ul>
 
-               <ul class="texto-item">
-               	<ul class="texto">Floricultor A</p></ul>
-               	<ul class="texto">Pedido A</p></ul>
-               	<ul class="texto">Vendedor A</p></ul>
-               </ul>
-               <ul><img class= "seta" src="assets/img/menu.png" alt="seta"></ul>
-            </ul>
-          </li>
+				</div>
 
-          <li class= "item">
-            <ul class= "box">
-               <ul>
-               	<img class= "seta" src="assets/img/rosa.jpg" alt="seta"></ul>
+				<div class="b">
+					<img src="assets/img/azul.jpg" class="tulipa">
+					<ul style="list-style-type:none;" class="pedido1">
+						<li class="floricultura">
+							maria flores
+						</li>
+						<li class="oque">
+							4 Rosas Azuis
+						</li>
+						<li class="detalhes">
+							<a href="tela6.html" class="detalhes2">...</a>
+						</li>
+						<hr class="divisao">
+						
+					</ul>
 
-               <ul class="texto-item">
-               	<ul class="texto">Floricultor A</p></ul>
-               	<ul class="texto">Pedido A</p></ul>
-               	<ul class="texto">Vendedor A</p></ul>
-               </ul>
-               <ul><img class= "seta" src="assets/img/menu.png" alt="seta"></ul>
-            </ul>
-          </li>
-      </ul>
-</body>
-</html>
-		
-	</body>
+				</div>
+
+				<div class="b">
+					<img src="assets/img/girasol.jpg" class="girasol">
+					<ul style="list-style-type:none;" class="pedido1">
+						<li class="floricultura">
+							Flor da esquina
+						</li>
+						<li class="oque">
+							8 Girasois
+						</li>
+						<li class="detalhes">
+							<a href="tela6.html" class="detalhes2">...</a>
+						</li>
+						<hr class="divisao">
+					</ul>
+
+				</div>
+
+				<div class="b">
+					<img src="assets/img/cerejeira.jpg" class="girasol">
+					<ul style="list-style-type:none;" class="pedido1">
+						<li class="floricultura">
+							Flor da esquina
+						</li>
+						<li class="oque">
+							6 Cerejeiras
+						</li>
+						<li class="detalhes">
+							<a href="tela6.html" class="detalhes2">...</a>
+						</li>
+						<hr class="divisao">
+					</ul>
+
+				</div>
+
+				<div class="b">
+					<img src="assets/img/branca.jpg" class="girasol">
+					<ul style="list-style-type:none;" class="pedido1">
+						<li class="floricultura">
+							Nova Flor
+						</li>
+						<li class="oque">
+							3 Flor branca do crisântemo
+						</li>
+						<li class="detalhes">
+							<a href="tela6.html" class="detalhes2">...</a>
+						</li>
+						<hr class="divisao">
+					</ul>
+
+				</div>
+
+				<div class="b">
+					<img src="assets/img/azul.jpg" class="tulipa">
+					<ul style="list-style-type:none;" class="pedido1">
+						<li class="floricultura">
+							maria flores
+						</li>
+						<li class="oque">
+							7 Rosas Azuis
+						</li>
+						<li class="detalhes">
+							<a href="tela6.html" class="detalhes2">...</a>
+						</li>
+						<hr class="divisao">
+						
+			</div> 
+
+			<div class="b">
+					<img src="assets/img/amarela.jpg" class="tulipa">
+					<ul style="list-style-type:none;" class="pedido1">
+						<li class="floricultura">
+							maria flores
+						</li>
+						<li class="oque">
+							8 Botão de rosa amarela clara
+						</li>
+						<li class="detalhes">
+							<a href="tela6.html" class="detalhes2">...</a>
+						</li>
+						<hr class="divisao">
+						
+			<hr class="divisao">
+		</body>
